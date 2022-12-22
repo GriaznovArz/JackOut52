@@ -211,11 +211,11 @@ class Game:
         return board
 
     def opener(self):
-        print("------------------")
+        print("-" * 18)
         print("     Привет!      ")
         print(" Ты в моей игре   ")
         print(" Поиграй со мной! ")
-        print("------------------")
+        print("-" * 18)
         print("формат ввода: x y")
         print(" где, x - строка  ")
         print("    y - столбец   ")
